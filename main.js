@@ -1,3 +1,5 @@
+// Event Listeners
+
 let addBtn = document.getElementById("add");
 
 let subtractBtn = document.getElementById("subtract");
@@ -13,39 +15,6 @@ const acceptInput = () => {
 
     return [inputOne, inputTwo];
 }
-
-// addBtn.addEventListener("click", function(){
-//     let inputOne = parseInt(document.getElementById("input-one").value);
-
-//     let inputTwo = parseInt(document.getElementById("input-two").value);
-
-//     console.log(inputOne + inputTwo);      
-// })
-
-// subtractBtn.addEventListener("click", function(){
-//     let inputOne = parseInt(document.getElementById("input-one").value);
-
-//     let inputTwo = parseInt(document.getElementById("input-two").value);
-
-//     console.log(inputOne - inputTwo);      
-// })
-
-// multiplyBtn.addEventListener("click", function(){
-//     let inputOne = parseInt(document.getElementById("input-one").value);
-
-//     let inputTwo = parseInt(document.getElementById("input-two").value);
-
-//     console.log(inputOne * inputTwo);      
-// })
-
-// divideBtn.addEventListener("click", function(){
-//     let inputOne = parseInt(document.getElementById("input-one").value);
-
-//     let inputTwo = parseInt(document.getElementById("input-two").value);
-
-//     console.log(inputOne / inputTwo);      
-// })
-
 
 addBtn.addEventListener("click", function(){
         acceptInput();
